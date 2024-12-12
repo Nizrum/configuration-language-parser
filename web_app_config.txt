@@ -1,0 +1,12 @@
+' Конфигурация для веб-приложения
+(def max_users 1000)
+(def app_name !(@"My" @"WebApp" concat))
+(def version !(@"1.0." @"3" concat))
+
+database = [@"localhost"; !(5000 !(1000 568 -) +); @"mydb"; @"admin"; @"password"]
+features = [@"login"; @"signup"; @"analytics"]
+
+max_connections = !(max_users 200 -)
+
+' Пример вычисления
+total_users = !(max_users 100 +)

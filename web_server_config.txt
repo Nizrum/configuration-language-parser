@@ -1,0 +1,5 @@
+(def max_connections !(10000 sqrt))
+(def port !(8000 !(6400 sqrt) +))
+server_name = !(@"My" @"Server" concat)
+root_dir = !(@"/var" @"/www" concat)
+allowed_ips = [!(@"192" !(@".168" !(@".1" @".1" concat) concat) concat); @"192.168.1.2"]
