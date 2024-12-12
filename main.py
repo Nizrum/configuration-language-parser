@@ -27,6 +27,10 @@ class ConfigParser:
                       result['evaluated'].append(value)
                     else:
                         result['evaluated'] = [value]
+            else:
+                key, value = self.parse_key_value(line)
+                self.constants[key] = value
+                result[key] = value
 
         return result
 
@@ -108,6 +112,13 @@ class ConfigParser:
         if buffer:
             tokens.append(buffer)
         return tokens
+
+    def parse_key_value(self, line):
+        match = re.match(r'(\w+)\s*=\s*(.+)', line)
+        if not match:
+            raise ValueError(f"Invalid key-value pair: {line}")
+        key, value = match.groups()
+        return key, self.parse_value(value)
 
     def parse_value(self, value):
         value = value.strip()
