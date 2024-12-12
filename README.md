@@ -42,4 +42,27 @@ Configuration Language Parser — это инструмент для обраб�
 
 ## Примеры использования
 
+### Пример №1
+
+Исходный файл
+
+<img width="646" alt="Screenshot 2024-12-12 at 15 39 09" src="https://github.com/user-attachments/assets/a65e4e6a-05e1-4d6f-af34-120a25352fb6" />
+
+Результат выполнения программы
+
+<img width="579" alt="Screenshot 2024-12-12 at 15 36 44" src="https://github.com/user-attachments/assets/ec4d5feb-0e04-40ff-9d79-70332d4da8b3" />
+
+### Пример №2
+
+Исходный файл
+
+<img width="689" alt="Screenshot 2024-12-12 at 15 39 49" src="https://github.com/user-attachments/assets/0fa1eea1-51ab-4054-8f13-cb66ddf9b625" />
+
+Результат выполнения программы
+
+<img width="593" alt="Screenshot 2024-12-12 at 15 37 21" src="https://github.com/user-attachments/assets/8296774a-b0eb-430d-ba4a-76430ea153f0" />
+
 ## Результаты тестирования
+
+<img width="546" alt="Screenshot 2024-12-12 at 15 41 28" src="https://github.com/user-attachments/assets/f0024aab-ed99-4ebc-918d-e8cdac9ab01c" />
+
